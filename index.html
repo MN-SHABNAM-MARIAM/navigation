@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1; 
+   top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+</style>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">TOP </a>
+  <a href="#">IMPORTANT SECTION </a>
+  <a href="#">CONTCT US </a>
+  <a href="#">NEXT</a>
+  
+</div>
+<nav>
+  <ul>
+    <span> <a href="#TOP">TOP </a></li></span>
+    <span> <a href="#IMPORTANT SECTION">IMPORTANT SECTION  </a></li></span>
+    <span> <a href="#CONTACT US ">CONTACT US</a></li> </span>
+      <span> <a href="next.html">NEXT </a></li> </span>
+      <style> ul{text-align: center;  }</style>
+
+  </ul>
+</nav>
+
+<div id="TOP">
+  <h2>LEARNING HTML </h2>
+  <style> h2{ text-align:center;}</style>
+ 
+  <span style="font-size:30px;cursor:pointer"  onclick="openNav()">&#9776; open  </span>
+  
+    
+  </style>
+
+  <img src="https://cdn.shopify.com/s/files/1/1463/4010/t/2/assets/masonry-feature-1-image.jpg?v=6292719477897739107" width="100" height="100">
+  <figure class="hero"
+    <figcaption>
+      <h1>LEARNING HTML</h1>
+     
+    </figcaption>
+  </figure>
+ <h1>what is html?></h1>
+ <hr>
+ <p> its a HYPERTEXT MARKUP LANGUAGE</p>
+ <style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
+ <table class="styled" id="IMPORTANT SECTION">
+   <colgroup>
+  <col style="background-color:orange;">
+ </colgroup>
+ <colgroup>
+  <col style="background-color:yellowgreen;">
+  
+
+ </colgroup>
+ <thread>
+   <tr>
+       <th>FIRST NAME</th>
+     <th>LAST NAME</th>
+     <th>EMAIL</th>
+   </tr>
+ </thread>
+ <tbody>
+   <tr>
+     <td>JON</td>
+     <td>WILL</td>
+     <td>JON@gmail.com</td>
+     </tr>
+   <tr>
+    <td>SAM</td>
+    <td>WILL</td>
+    <td>SAM@gmail.com</td>
+    <section>
+      <table class="styled"
+      <tr>
+        <th colspan="2">WORKING HOURS</th>
+  
+      </tr>
+      <tr>
+        <td>mon-fri</td>
+        <td>7am-9pm</td>
+  
+      </tr>
+      <tr>
+        <td>sat-sun</td>
+        <td>CLOSED</td>
+      </tr>
+    </section>
+  
+    
+ </tbody>
+ </table>
+</div>
+<footer>
+ 
+  <section>
+    <h2>HTML Forms</h2>
+
+<form action="/action_page.php" id="CONTACT US">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+  </section>
+</footer>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  
+}
+</script>
+
+
+
+
+   
+</body>
+</html> 
